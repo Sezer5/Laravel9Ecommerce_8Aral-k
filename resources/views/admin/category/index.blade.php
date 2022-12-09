@@ -2,7 +2,7 @@
 
   @extends('layouts.adminbase')
 
-  @section('title', 'Admin Panel')
+  @section('title', 'Category List')
 
   @section('content')
 
@@ -11,8 +11,7 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
           <h1>
-              Blank page
-              <small>it all starts here</small>
+              Category List
           </h1>
           <ol class="breadcrumb">
               <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>

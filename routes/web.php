@@ -57,6 +57,16 @@ Route::get('/' , [HomeController::class,'index'])->name('home');
 Route::get('/admin' , [AdminHomeController::class,'index'])->name('admin');
 
 
+//***************************************************** ADMIN CATEGORY ROUTES *********************************************************************//
+//***************************************************** ADMIN CATEGORY ROUTES *********************************************************************//
+//***************************************************** ADMIN CATEGORY ROUTES *********************************************************************//
+//***************************************************** ADMIN CATEGORY ROUTES *********************************************************************//
+//***************************************************** ADMIN CATEGORY ROUTES *********************************************************************//
+
+
+Route::get('/admin/category' , [\App\Http\Controllers\AdminPanel\CategoryController::class,'index'])->name('admin_category');
+Route::get('/admin/category/create' , [\App\Http\Controllers\AdminPanel\CategoryController::class,'create'])->name('admin_category_create');
+
 
 Route::get('/greeting', function () {
     return 'Hello World';
